@@ -4517,9 +4517,9 @@ declare module THREE {
         generateMipmaps: boolean;
         shareDepthFrom: any;
 
+        setSize(width: number, height: number): void;
         clone(): WebGLRenderTarget;
         dispose(): void;
-
 
         // EventDispatcher mixins
         addEventListener(type: string, listener: (event: any) => void ): void;
